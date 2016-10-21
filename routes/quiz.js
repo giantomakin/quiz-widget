@@ -7,7 +7,7 @@ var pool = db.connect();
 /* GET users listing. */
 
 function setHeaders(res){
-	res.setHeader('Access-Control-Allow-Origin', 'https://new.marble.com');
+	res.setHeader('Access-Control-Allow-Origin', 'http://107.170.39.72:3001');
 	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
 	res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
 	res.setHeader('Access-Control-Allow-Credentials', true);
